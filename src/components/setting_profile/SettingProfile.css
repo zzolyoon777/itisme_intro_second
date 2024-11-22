@@ -1,0 +1,72 @@
+.SettingProfilePage {
+    display: flex;
+    width: 1440px;
+    height: 2048px;
+    flex-direction: column;
+}
+
+.Header {
+    display: flex;
+    height: 277px;
+    padding: 64px 289px 63px 289px;
+    justify-content: center;
+    align-items: center;
+}
+
+.settingProfileTitle {
+    color: #000;
+    text-align: center;
+    font-family: "Black Han Sans", serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6px;
+}
+
+.Body {
+    width: 1440px;
+    height: 1771px;
+    font-family: "Gamja Flower", sans-serif;
+    display: flex;
+    padding: 36px 0 45px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+.InfoComp {
+    display: flex;
+    width: 684px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 26px;
+    background: #D0E8C5;
+    border-radius: 20px;
+    opacity: 0.5;
+    box-shadow: 4px 4px 12px #659287;
+    padding: 24px;
+}
+
+.infoCompTitle {
+    color: #000;
+    text-align: center;
+    font-family: "Gamja Flower";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 14.4px;
+    margin: 0;
+}
+
+.infoCompInput {
+    width: 684px;
+    height: 114px;
+    border-radius: 30px;
+    border: 5px solid #CCD3CA;
+    background: #EED3D9;
+    box-sizing: border-box;
+    font-size: 36px;
+}
