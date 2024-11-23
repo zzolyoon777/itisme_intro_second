@@ -1,7 +1,6 @@
 .SettingProfilePage {
     display: flex;
     width: 1440px;
-    height: 2048px;
     flex-direction: column;
 }
 
@@ -10,6 +9,7 @@
     height: 277px;
     padding: 64px 289px 63px 289px;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -26,7 +26,6 @@
 
 .Body {
     width: 1440px;
-    height: 1771px;
     font-family: "Gamja Flower", sans-serif;
     display: flex;
     padding: 36px 0 45px 0;
@@ -69,4 +68,17 @@
     background: #EED3D9;
     box-sizing: border-box;
     font-size: 36px;
+}
+
+.btn-main {
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 100px;
+    border: 5px solid rgba(71, 102, 59, 10%);
+}
+
+
+.btn-main:active {
+    transform: translateY(-10%);
+    box-shadow: 0 10px 50px #a7b3a4;
 }
